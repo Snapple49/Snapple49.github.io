@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Category Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="
+		width = device-width,
+		initial-scale = 1,
+		maximum-scale = 2,
+		" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/printstyle.css" media="print" />
+</head>
+
+
+<body>
+    <div id="bigWrapper">
+        <!-- Page header with logo, title and navigation bar -->
+        <header>
+            <img id="siteLogo" src="../general_imgs/logo.png" alt="site logo" height="100" width="95"/>
+            <div id="titleGroup">
+                <h1 id="mainTitle">ThingsIDo</h1>
+                <h2 id="subTitle">a personal portfolio<br /> of Oliver Stein</h2>
+            </div>
+            <div id="navContainer">
+                <nav id="mainNavBar">
+                    <ul class="hNavList">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../musicprojs.html">Music projects</a></li>
+                        <li><a href="../photos.html">Photos</a></li>
+                        <li><a href="../paintings.html">Paintings</a></li>
+                        <li><a href="../buildprojs.html">Build projects</a></li>
+                        <li><a href="../digitalprojs.html">Digital projects</a></li>
+                        <li><a href="../about.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+       
+        
+        <!-- Left column, contains latest project in all categories -->
+        <div class="column" id="leftColumn">
+            <section id="latestProjects">
+                <h2>Latest projects</h2>
+                <nav>
+                    <dl class="vNavList">
+                        <dt>Music</dt>
+                        <dd><a href="../musicalbums/redCatShuffle/redCatShuffle.html">Red Cat Shuffle</a></dd>
+                        <dt>Photos</dt>
+                        <dd><a href="../photoalbums/fooGothenburg15/fooGothenburg15.html">Foo Fighters Gothenburg 2015</a></dd>
+                        <dt>Paintings</dt>
+                        <dd><a href="../paintings/inkEye/inkEye.html">Animal eye - ink</a></dd>
+                        <dt>Build projects</dt>
+                        <dd><a href="nyi.html">latest project</a></dd>
+                        <dt>Digital projects</dt>
+                        <dd><a href="nyi.html">latest project</a></dd>
+                    </dl>
+                </nav>
+            </section>      
+        </div>
+       
+         <!-- Mid half column, contains category information and gridlist of all projects -->
+        <div class="column" id="midColumn">
+            <h2>Album title</h2>
+            <p id="albumDesc">
+                <img id="albumArtwork" alt="album artwork" src="../general_imgs/sampleAlbumArt.png" width="300" height="300">
+                Lorem impsum about album information
+            </p> 
+            <h3 id="trackList">Track listing</h3>
+            <ul id="albumList">
+                <li>track 1
+                    <audio class="track" controls preload="auto">
+                        <source src="../musicalbums/redCatShuffle/sampleRecording.mp3" type="audio/mp3">
+                        <source src="../musicalbums/redCatShuffle/sampleRecording.wma" type="audio/wma">
+                    </audio>
+                </li>
+                <li>track 2
+                    <audio class="track" controls preload="auto">
+                        <source src="../musicalbums/redCatShuffle/sampleRecording.mp3" type="audio/mp3">
+                        <source src="../musicalbums/redCatShuffle/sampleRecording.wma" type="audio/wma">
+                    </audio>
+                </li>
+                <li>track 3
+                    <audio class="track" controls preload="auto">
+                        <source src="../musicalbums/redCatShuffle/sampleRecording.mp3" type="audio/mp3">
+                        <source src="../musicalbums/redCatShuffle/sampleRecording.wma" type="audio/wma">
+                    </audio>
+                </li>
+                <li>track 4
+                    <audio class="track" controls preload="auto">
+                        <source src="../musicalbums/redCatShuffle/sampleRecording.mp3" type="audio/mp3">
+                        <source src="../musicalbums/redCatShuffle/sampleRecording.wma" type="audio/wma">
+                    </audio>
+                </li>
+                <li>track 5
+                    <audio class="track" controls preload="auto">
+                        <source src="../musicalbums/redCatShuffle/sampleRecording.mp3" type="audio/mp3">
+                        <source src="../musicalbums/redCatShuffle/sampleRecording.wma" type="audio/wma">
+                    </audio>
+                </li>
+            </ul>
+            <h3>Credits</h3>
+            <p id="credits">
+				Lorem ipsum album credits.
+			</p>
+        </div>
+        
+    
+        <!-- Page footer -->
+        <footer>
+            <div id="footerContent">
+                <small>&copy; 2015 Oliver Stein. All rights reserved.</small>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
